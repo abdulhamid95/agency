@@ -78,7 +78,7 @@ header .overlay .carousel .carousel-inner .carousel-item {
 header .overlay .carousel .carousel-inner .carousel-item .carousel-content {
     position: absolute;
     right: 15%;
-    top: 50%;
+    top: 40%;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
@@ -316,6 +316,11 @@ section.contacts {
     padding-top: 100px;
 }
 
+section.contacts .map iframe {
+    width: 500px;
+    height: 200px;
+}
+
 section.contacts .contacts-addresses h4 {
     font-size: 24px;
     line-height: 50px;
@@ -462,10 +467,53 @@ footer .copyright p {
     color: #919191;
     margin-bottom: 0;
 }
-/* @media (max-width: 992px) {
-    nav .navbar .navbar-collapse {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }  
-} */
+@media (max-width: 992px) {
+    header .overlay .carousel .carousel-inner .carousel-item .carousel-content {
+        top: 25%;
+    }
+
+    section.contacts .contacts-form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    section.gallery .gallery-work .gallery-overlay .overlay-img {
+        display: none;
+    }
+
+    section.gallery .gallery-work .gallery-overlay .overlay-text {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 575px) {
+    header .overlay .carousel button {
+        display: none;
+    }
+
+    header .overlay .carousel .carousel-inner .carousel-item .carousel-content h3 {
+        font-size: 30px;
+    }
+
+
+    section.gallery .gallery-work .gallery-overlay .overlay-text h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+/* 
+    section.gallery .gallery-work .gallery-overlay .overlay-text {
+        margin-top: 20px;
+    } */
+
+    section.gallery .gallery-work .gallery-overlay .overlay-text p {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+
+    section.contacts .map iframe {
+        width: 300px;
+    }
+}
 
