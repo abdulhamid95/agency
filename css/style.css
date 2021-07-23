@@ -13,6 +13,9 @@ body {
     direction: rtl;
 }
 
+
+/******************* NAV *******************/
+
 nav.navbar {
     z-index: 10;
 }
@@ -41,10 +44,6 @@ nav.navbar.noTransparrent {
     border-bottom: 1px solid #eee;
 }
 
-/* nav.navbar.noTransparrent button.navbar-toggler {
-    margin: 30px auto;
-} */
-
 nav.navbar.noTransparrent button.navbar-toggler span {
     color: #16aeca;
 }
@@ -58,6 +57,8 @@ nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransp
     background-color: #16aeca;
 }
 
+
+/******************* HEADER *******************/
 
 header {
     background-image: url(../images/bg.jpg);
@@ -120,6 +121,9 @@ header .overlay .carousel i.fas {
     border-radius: 2px;
 }
 
+
+/******************* SERVICES *******************/
+
 section.services {
     padding: 80px 0;
     min-height: 650px;
@@ -166,6 +170,8 @@ section.services .card:hover .card-block p {
 }
 
 
+
+/******************* GALLERY *******************/
 
 section.gallery .gallery-title h3 {
     font-size: 40px;
@@ -284,6 +290,8 @@ section.gallery .gallery-work .gallery-overlay .overlay-text a.close {
 }
 
 
+/******************* STATISTICS *******************/
+
 section.statistics {
     background-image: url(../images/bg2.jpg);
     background-position: center center;
@@ -311,6 +319,7 @@ section.statistics .statistics-overlay span.counter {
 }
 
 
+/******************* CONTATCS *******************/
 
 section.contacts {
     padding-top: 100px;
@@ -388,6 +397,7 @@ section.contacts .contacts-form button {
 }
 
 
+/******************* FOOTER *******************/
 
 footer.footer .top-footer {
     background-color: #171717;

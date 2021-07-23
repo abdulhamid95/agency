@@ -1,11 +1,10 @@
-// Example starter JavaScript for disabling form submissions if there are invalid fields
+// دالة للتحقق من دخل المستخدم
 (function () {
-  'use strict'
 
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  // إحضار جميع النماذج التي نريد تطبيق التحقق منها
   var forms = document.querySelectorAll('.needs-validation')
 
-  // Loop over them and prevent submission
+  // الاستماع إلى أمر الإرسال والتأكد من الدخل وإضافة صنف التحقق في حال كان صحيحًا
   Array.prototype.slice.call(forms)
     .forEach(function (form) {
       form.addEventListener('submit', function (event) {
@@ -19,6 +18,8 @@
     })
 })()
 
+// إضافة صنف noTransparrent وحذفه عند النزول إلى الأسفل
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -29,6 +30,8 @@ function scrollFunction() {
   }
 }
 
+
+// إضافة العدادات إلى الصفحة في العناصر المحددة
 window.onload = function() {
   var website = new CountUp("website-count", 0, 250, 0, 2.5);
   website.start();
